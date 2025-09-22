@@ -14,7 +14,7 @@ pipeline {
     // Use webhook trigger; keep this block empty if you rely on webhook only.
     // For fallback polling, uncomment:
     // pollSCM('H/5 * * * *')
-    githubPush()
+    //githubPush()
   }
 
   stages {
