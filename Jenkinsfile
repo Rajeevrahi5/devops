@@ -10,7 +10,7 @@ pipeline {
     )
   }
 
-  // Note: This job is intended to be triggered by a GitHub webhook.
+  // Note: This job is intended to be triggered by a GitHub webhook
   //triggers {
     // Use webhook trigger; keep this block empty if you rely on webhook only.
     // For fallback polling, uncomment:
