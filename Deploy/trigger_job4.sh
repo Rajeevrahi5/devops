@@ -1,1 +1,1 @@
-echo "Job4 is triggered"
+echo "Deploy is triggered"
