@@ -11,12 +11,12 @@ pipeline {
   }
 
   // Note: This job is intended to be triggered by a GitHub webhook..
-  //triggers {
+  triggers {
     // Use webhook trigger; keep this block empty if you rely on webhook only.
     // For fallback polling, uncomment:
     // pollSCM('H/5 * * * *')
-    //githubPush()
-  //}
+    githubPush()
+  }
 
   stages {
     stage('Checkout') {
