@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  triggers { githubPush() }  // valid here
+  triggers { githubPush() }  // valid here..
 
   stages {
     stage('Checkout') {
